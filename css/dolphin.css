@@ -18,7 +18,7 @@ html {
   right: 0;
 }
 
-/* Write your solution here */
+/* The dolphin is rotated by 25% to the left, and moves up from 400px from the top to 100px from the top*/
 
 @media only screen and (min-width: 642px) and (max-width: 1090px) {
   #dolphin {
