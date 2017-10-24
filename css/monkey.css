@@ -8,7 +8,9 @@ html {
   right: 120px;
 }
 
-/* Write your solution here */
+/* When the screen has a minimum width of 406 pixels and a max of 1096 pixels the monkey moves up to the top over-riding
+the previous setting of 500px down from the top. There is no right margin. For all of the coords between 406 pixels and 1096 pixels,
+the monkey will stay in this position. */
 @media only screen and (min-width: 406px) and (max-width: 1096px) {
   #monkey {
     right: 0;
