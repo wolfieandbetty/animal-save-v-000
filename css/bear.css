@@ -8,7 +8,8 @@ html {
   right: 0;
 }
 
-/* Write your solution here */
+/* When the bear image is LARGER than 1196 pixels, the bear has a left margin that won't exceed 800 px and overrides the 
+previous right margin setting */
 @media only screen and (min-width: 1196px) {
   #bear {
     left: 800px;
